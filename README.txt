@@ -1,5 +1,7 @@
 jQuery.Preload 1.0
 
+You can see the demo at http://demos.flesler.com/jquery/preload/
+
 This is an advanced multi-functional preloader, that has 4 modes integrated.
 Each mode suits a different, common situation.
 The modes are: 

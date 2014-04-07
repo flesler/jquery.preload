@@ -1,0 +1,32 @@
+{
+	"name": "preload",
+	"title": "Ariel Flesler's jQuery preload",
+	"description": "Multi-functional image preloader plugin for jQuery",
+	"keywords": [
+    "preload", "preloader", "images", "photos",
+    "rollover", "high-res", "placeholder", "loading"
+  ],
+	"version": "1.0.8",
+	"author": {
+		"name": "Ariel Flesler",
+		"email": "aflesler@gmail.com",
+		"url": "http://flesler.blogspot.com"
+	},
+	"maintainers": [{
+		"name": "Ariel Flesler",
+		"email": "aflesler@gmail.com",
+		"url": "http://flesler.blogspot.com"
+	}],
+	"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/flesler/jquery.preload/blob/master/LICENSE"
+	}],
+	"homepage": "https://github.com/flesler/jquery.preload",
+	"docs": "http://flesler.blogspot.com.ar/2008/01/jquerypreload.html",
+	"bugs": "https://github.com/flesler/jquery.preload/issues",
+	"download": "https://github.com/flesler/jquery.preload/releases",
+	"demo": "http://demos.flesler.com/jquery/preload/",
+	"dependencies": {
+		"jquery": ">=1.8"
+	}
+}
