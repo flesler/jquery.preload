@@ -79,7 +79,7 @@
 			return finish();
 		
 		var imgs = $(Array(settings.threshold+1).join('<img/>'))
-			.load(handler).error(handler).bind('abort',handler).each(fetch);
+			.load(handler).on('error',handler).bind('abort',handler).each(fetch);
 		
 		function handler( e ){
 			data.element = this;
