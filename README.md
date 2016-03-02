@@ -1,13 +1,29 @@
-# jQuery.Preload 1.0
-
-## Demo
-
-You can see the demo at http://demos.flesler.com/jquery/preload/
+# jQuery.Preload
 
 ## Description
 
 This is an advanced multi-functional preloader, that has 4 modes integrated.
 Each mode suits a different, common situation.
+
+## Demo
+
+You can see the demo at http://demos.flesler.com/jquery/preload/
+
+## Installation
+
+The plugin requires jQuery 1.8 or higher and [jquery.scrollTo](https://github.com/flesler/jquery.scrollTo).
+
+Via [bower](https://github.com/flesler/jquery.preload/blob/master/bower.json):
+```bash
+bower install jquery.preload
+```
+
+Via [npm](https://www.npmjs.com/package/jquery.preload):
+```bash
+npm install jquery.preload
+```
+
+Manually: You can download the latest stable version from the [releases page](https://github.com/flesler/jquery.preload/releases).
 
 ## Modes / Settings
 
