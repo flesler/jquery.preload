@@ -1,0 +1,22 @@
+{
+  "name": "jquery.preload",
+  "version": "1.0.9",
+  "description": "Multi-functional image preloader plugin for jQuery",
+  "main": "jquery.preload.js",
+  "license": "MIT",
+  "ignore": ["**/.*","demo","tests","CHANGELOG","README.md","composer.json","bower.json"],
+  "dependencies": { "jquery": ">=1.8" },
+  "homepage": "https://github.com/flesler/jquery.preload/",
+  "docs": "https://github.com/flesler/jquery.preload/",
+  "demo": "http://demos.flesler.com/jquery/preload/",
+  "bugs": "https://github.com/flesler/jquery.preload/issues",
+  "download": "https://github.com/flesler/jquery.preload/releases",
+  "repository": "git://github.com/flesler/jquery.preload",
+  "keywords": ["preload", "preloader", "images", "photos",
+    "rollover", "high-res", "placeholder", "loading",
+    "jquery","jquery-plugin", "ecosystem:jquery"],
+  "author": {
+    "name": "Ariel Flesler",
+    "web": "https://github.com/flesler"
+  }
+}
