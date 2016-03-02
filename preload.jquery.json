@@ -6,7 +6,7 @@
     "preload", "preloader", "images", "photos",
     "rollover", "high-res", "placeholder", "loading"
   ],
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"author": {
 		"name": "Ariel Flesler",
 		"email": "aflesler@gmail.com",

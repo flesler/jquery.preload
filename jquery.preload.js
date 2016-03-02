@@ -1,11 +1,11 @@
 /**
  * jQuery.Preload
- * Copyright (c) 2008-2014 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
+ * Copyright (c) 2008-2016 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
  * Licensed under MIT
  * http://flesler.blogspot.com.ar/2008/01/jquerypreload.html
  * @projectDescription Multi-functional image preloader plugin for jQuery
  * @author Ariel Flesler
- * @version 1.0.8
+ * @version 1.0.9
  *
  * @id jQuery.preload
  * @param {String, jQuery, Array< String, <a>, <link>, <img> >} original Collection of sources to preload
