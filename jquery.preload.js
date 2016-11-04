@@ -5,7 +5,7 @@
  * http://flesler.blogspot.com.ar/2008/01/jquerypreload.html
  * @projectDescription Multi-functional image preloader plugin for jQuery
  * @author Ariel Flesler
- * @version 1.0.9
+ * @version 1.1.0
  *
  * @id jQuery.preload
  * @param {String, jQuery, Array< String, <a>, <link>, <img> >} original Collection of sources to preload

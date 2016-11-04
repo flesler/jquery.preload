@@ -1,6 +1,6 @@
 {
   "name": "jquery.preload",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Multi-functional image preloader plugin for jQuery",
   "main": "jquery.preload.js",
   "license": "MIT",
