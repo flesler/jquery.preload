@@ -55,7 +55,7 @@
 				return; // skip
 			if( source.split ) // URL Mode
 				return settings.base + source + settings.ext;
-			var url = source.src || source.href; // save the original source
+			var url = settings.srcAttribute ? $(source).attr(settings.srcAttribute) : source.src || source.href; // save the original source
 			if( typeof settings.placeholder == 'string' && source.src ) // Placeholder Mode, if it's an image, set it.
 				source.src = settings.placeholder;
 			if( url && settings.find ) // Rollover mode
@@ -142,6 +142,7 @@
 		ext:'', // URL mode:same as base, but it's appended after the original url.
 		replace:'' // Rollover mode: replacement (can be left empty)
 		/*
+		srcAttribute: null, // allow to define attribute to get url from
 		enforceCache: false, // If true, the plugin will save a copy of the images in $.preload.cache
 		find:null, // Rollover mode: a string or regex for the replacement
 		notFound:'' // Placeholder Mode: Optional url of an image to use when the original wasn't found
