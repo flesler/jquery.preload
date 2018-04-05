@@ -1,5 +1,9 @@
 # jQuery.Preload Changelog
 
+## 1.1.1
+### Fix
+- Replaced `.load(fn)` for `.on('load',fn)` since the former is no longer support in newer jQuery versions #5
+
 ## 1.1.0
 ### Feature
 - Added `srcAttribute` option so URL can be taken from other DOM attributes, thanks @emri99

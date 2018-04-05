@@ -51,7 +51,7 @@
 
 		settings = $.extend( {}, $preload.defaults, settings );
 		var sources = $.map( original, function( source ){
-			if( !source ) 
+			if( !source )
 				return; // skip
 			if( source.split ) // URL Mode
 				return settings.base + source + settings.ext;
@@ -69,18 +69,18 @@
 			next:0, // which one's the next image to load (index)
 			done:0, // how many urls were tried
 			/*
-			index:0, // index of the related image			
+			index:0, // index of the related image
 			found:false, // whether the last one was successful
 			*/
 			total:sources.length // how many images are being preloaded overall
 		};
-		
+
 		if( !data.total ) // nothing to preload
 			return finish();
-		
+
 		var imgs = $(Array(settings.threshold+1).join('<img/>'))
-			.load(handler).on('error',handler).bind('abort',handler).each(fetch);
-		
+			.on('load',handler).on('error',handler).bind('abort',handler).each(fetch);
+
 		function handler( e ){
 			data.element = this;
 			data.found = e.type == 'load';
@@ -92,7 +92,7 @@
 
 			// This will ensure that the images aren't "un-cached" after a while
 			if( settings.enforceCache )
-				$preload.cache.push( 
+				$preload.cache.push(
 					$('<img/>').attr('src',data.image)[0]
 				);
 
@@ -133,9 +133,9 @@
 	};
 
 	 // each time we load this amount and it's IE, we must rest for a while, make it lower if you get stack overflow.
-	$preload.gap = 14; 
+	$preload.gap = 14;
 	$preload.cache = [];
-	
+
 	$preload.defaults = {
 		threshold:2, // how many images to load simultaneously
 		base:'', // URL mode: a base url can be specified, it is prepended to all string urls
